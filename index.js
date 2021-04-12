@@ -14,6 +14,6 @@ function renderBooks(books) {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-  fetchBooks('https://anapioficeandfire.com/api/books');
+  fetchBooks();
 });
 
